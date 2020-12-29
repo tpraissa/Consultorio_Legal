@@ -1,7 +1,9 @@
+using CL.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +30,9 @@ namespace CL_WebApi
         {
             services.AddControllers();
             services.AddApplicationInsightsTelemetry();
+
+            services.AddDbContext<ClContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ClConnection")));
+
             //iniciando o swagger como serviço de documentação
             services.AddSwaggerGen(c =>
             {

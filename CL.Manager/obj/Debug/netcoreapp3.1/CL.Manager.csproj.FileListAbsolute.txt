@@ -7,3 +7,6 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.csproj.CoreCompileInputs.cache
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Manager.runtimeconfig.json
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Manager.runtimeconfig.dev.json
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.genruntimeconfig.cache

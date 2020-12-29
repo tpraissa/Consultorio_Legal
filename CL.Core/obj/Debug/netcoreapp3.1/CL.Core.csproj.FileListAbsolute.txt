@@ -7,3 +7,6 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\obj\Debug\netcoreapp3.1\
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\obj\Debug\netcoreapp3.1\CL.Core.csproj.CoreCompileInputs.cache
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\obj\Debug\netcoreapp3.1\CL.Core.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\obj\Debug\netcoreapp3.1\CL.Core.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\bin\Debug\netcoreapp3.1\CL.Core.runtimeconfig.json
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\bin\Debug\netcoreapp3.1\CL.Core.runtimeconfig.dev.json
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core\obj\Debug\netcoreapp3.1\CL.Core.genruntimeconfig.cache

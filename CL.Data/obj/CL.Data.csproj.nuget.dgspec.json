@@ -4,14 +4,14 @@
     "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj": {}
   },
   "projects": {
-    "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj": {
+    "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj",
-        "projectName": "CL.Data",
-        "projectPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj",
+        "projectUniqueName": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj",
+        "projectName": "CL.Core",
+        "projectPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj",
         "packagesPath": "C:\\Users\\55539\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\obj\\",
+        "outputPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,116 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj",
+        "projectName": "CL.Data",
+        "projectPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\CL.Data.csproj",
+        "packagesPath": "C:\\Users\\55539\\.nuget\\packages\\",
+        "outputPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\55539\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj": {
+                "projectPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
