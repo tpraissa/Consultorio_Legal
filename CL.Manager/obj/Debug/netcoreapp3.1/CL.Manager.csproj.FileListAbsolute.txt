@@ -1,0 +1,9 @@
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Manager.deps.json
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Manager.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Manager.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.csprojAssemblyReference.cache
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.AssemblyInfoInputs.cache
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.AssemblyInfo.cs
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.csproj.CoreCompileInputs.cache
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.pdb
