@@ -13,3 +13,5 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Core.pdb
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\obj\Debug\netcoreapp3.1\CL.Data.csproj.CopyComplete
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\obj\Debug\netcoreapp3.1\CL.Data.genruntimeconfig.cache
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Manager.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Manager.pdb

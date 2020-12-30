@@ -26,6 +26,7 @@
         "dependencies": {
           "CL.Core": "1.0.0",
           "CL.Data": "1.0.0",
+          "CL.Manager": "1.0.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.15.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.Design": "5.0.1",
@@ -2074,6 +2075,7 @@
       "CL.Data/1.0.0": {
         "dependencies": {
           "CL.Core": "1.0.0",
+          "CL.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Swashbuckle.AspNetCore": "5.6.3"
@@ -2083,6 +2085,20 @@
         },
         "compile": {
           "CL.Data.dll": {}
+        }
+      },
+      "CL.Manager/1.0.0": {
+        "dependencies": {
+          "CL.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "runtime": {
+          "CL.Manager.dll": {}
+        },
+        "compile": {
+          "CL.Manager.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4909,6 +4925,11 @@
       "sha512": ""
     },
     "CL.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CL.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

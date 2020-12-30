@@ -25,6 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CL.Core\CL.Core.csproj" />
     <ProjectReference Include="..\CL.Data\CL.Data.csproj" />
+    <ProjectReference Include="..\CL.Manager\CL.Manager.csproj" />
   </ItemGroup>
 
 

@@ -83,3 +83,5 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Data.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Data.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Manager.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Manager.pdb

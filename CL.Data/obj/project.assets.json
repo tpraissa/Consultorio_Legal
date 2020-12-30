@@ -1612,6 +1612,25 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CL.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CL.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "compile": {
+          "bin/placeholder/CL.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CL.Manager.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5945,11 +5964,17 @@
       "type": "project",
       "path": "../CL.Core/CL.Core.csproj",
       "msbuildProject": "../CL.Core/CL.Core.csproj"
+    },
+    "CL.Manager/1.0.0": {
+      "type": "project",
+      "path": "../CL.Manager/CL.Manager.csproj",
+      "msbuildProject": "../CL.Manager/CL.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CL.Core >= 1.0.0",
+      "CL.Manager >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
@@ -5990,6 +6015,9 @@
           "projectReferences": {
             "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj": {
               "projectPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Core\\CL.Core.csproj"
+            },
+            "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Manager\\CL.Manager.csproj": {
+              "projectPath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL.Manager\\CL.Manager.csproj"
             }
           }
         }

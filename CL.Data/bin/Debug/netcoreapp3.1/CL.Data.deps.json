@@ -9,6 +9,7 @@
       "CL.Data/1.0.0": {
         "dependencies": {
           "CL.Core": "1.0.0",
+          "CL.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.Design": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
@@ -1087,6 +1088,17 @@
         "runtime": {
           "CL.Core.dll": {}
         }
+      },
+      "CL.Manager/1.0.0": {
+        "dependencies": {
+          "CL.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "runtime": {
+          "CL.Manager.dll": {}
+        }
       }
     }
   },
@@ -1818,6 +1830,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "CL.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CL.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

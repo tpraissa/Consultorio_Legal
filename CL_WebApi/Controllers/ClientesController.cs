@@ -1,4 +1,5 @@
 ﻿using CL.Core.Domain;
+using CL.Manager.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,22 +17,30 @@ namespace CL.WebApi.Controllers
     [ApiController]
     public class ClientesController : ControllerBase
     {
+        private readonly IClienteManager clienteManager;
+
+        public ClientesController(IClienteManager clienteManager)
+        {
+            this.clienteManager = clienteManager;
+        }
+
         // GET: api/<ClientesController>
         [HttpGet]
         //public IEnumerable<Cliente> Get()
-        public IActionResult Get ()
+        public async Task<IActionResult> Get()
         {
-            return Ok(new List<Cliente>() { 
-                new Cliente { Id = 1, Nome = "Erick Moreira", DataNascimento = new DateTime(1995,04,11)},
-                new Cliente { Id = 2, Nome = "Raissa Teles", DataNascimento = new DateTime(1993,04,13)}
-            });
+            return Ok(await clienteManager.GetClientesAsync());
+            //return Ok(new List<Cliente>() { 
+            //  new Cliente { Id = 1, Nome = "Erick Moreira", DataNascimento = new DateTime(1995,04,11)},
+            //    new Cliente { Id = 2, Nome = "Raissa Teles", DataNascimento = new DateTime(1993,04,13)}
+            //});
         }
 
         // GET api/<ClientesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return "value";
+            return Ok(await clienteManager.GetClienteAsync(id));
         }
 
         // POST api/<ClientesController>
