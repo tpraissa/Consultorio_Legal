@@ -2,6 +2,8 @@ using CL.Data.Context;
 using CL.Data.Repository;
 using CL.Manager.Implementation;
 using CL.Manager.Interfaces;
+using CL.Manager.Validator;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,9 +33,11 @@ namespace CL_WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddApplicationInsightsTelemetry();
+            services.AddControllers()
+                .AddFluentValidation(p => p.RegisterValidatorsFromAssemblyContaining<ClienteValidator>());
 
+            services.AddApplicationInsightsTelemetry();
+                
             services.AddDbContext<ClContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ClConnection")));
             //Injeção de dependencia
             services.AddScoped<IClienteRepository, ClienteRepository>();

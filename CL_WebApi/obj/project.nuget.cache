@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WIS3klUUV7mYiAAYii0iCy+3wsbVpTZVLCk0QD4drJX2llkLU6Y5lJjS9UVc/81B7TEOrYlOA4xaHaGsBLLThA==",
+  "dgSpecHash": "6rgLSqPOMv5CvVcxPV1r+qsNhFbVQ5HS7PC5fuMq3Q4Qfh27bZXXwCiw2MJYi5bHrUEZnX4UVk2NsoN0e9df9g==",
   "success": true,
   "projectFilePath": "C:\\Aplicacoes\\app-corporativa\\Consultorio_Legal\\CL_WebApi\\CL.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\55539\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\55539\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\55539\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\55539\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\55539\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\microsoft.applicationinsights.2.15.0.nupkg.sha512",
     "C:\\Users\\55539\\.nuget\\packages\\microsoft.applicationinsights.aspnetcore\\2.15.0\\microsoft.applicationinsights.aspnetcore.2.15.0.nupkg.sha512",

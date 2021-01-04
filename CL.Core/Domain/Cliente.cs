@@ -9,6 +9,9 @@ namespace CL.Core.Domain
         public int Id { get; set; }
         public String Nome { get; set; }
         public DateTime DataNascimento { get; set; }
+        public char Sexo { get; set; }
+        public String Telefone { get; set; }
+        public String Documento { get; set; }
 
     }
 }
