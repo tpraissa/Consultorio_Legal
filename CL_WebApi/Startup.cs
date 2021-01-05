@@ -1,7 +1,9 @@
+using AutoMapper;
 using CL.Data.Context;
 using CL.Data.Repository;
 using CL.Manager.Implementation;
 using CL.Manager.Interfaces;
+using CL.Manager.Mapping;
 using CL.Manager.Validator;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
@@ -16,6 +18,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -34,7 +37,14 @@ namespace CL_WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers()
-                .AddFluentValidation(p => p.RegisterValidatorsFromAssemblyContaining<ClienteValidator>());
+                .AddFluentValidation(p =>
+                {
+                    p.RegisterValidatorsFromAssemblyContaining<NovoClienteValidator>();
+                    p.RegisterValidatorsFromAssemblyContaining<AlterarClienteValidator>();
+                    p.ValidatorOptions.LanguageManager.Culture = new CultureInfo("pt-BR");
+                });
+
+            services.AddAutoMapper(typeof(NovoClienteMappingProfile), typeof(AlterarClienteMappingProfile));
 
             services.AddApplicationInsightsTelemetry();
                 

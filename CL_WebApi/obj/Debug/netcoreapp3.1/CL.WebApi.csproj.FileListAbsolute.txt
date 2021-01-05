@@ -88,3 +88,7 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Core.Shared.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Core.Shared.pdb

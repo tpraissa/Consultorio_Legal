@@ -1,4 +1,5 @@
 ﻿using CL.Core.Domain;
+using CL.Core.Shared.ModelViews;
 using CL.Manager.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -45,17 +46,17 @@ namespace CL.WebApi.Controllers
 
         // POST api/<ClientesController>
         [HttpPost]
-        public async Task<IActionResult> Post(Cliente cliente)
+        public async Task<IActionResult> Post(NovoCliente novoCliente)
         {
-            var clienteInserido = await clienteManager.InsertClienteAsync(cliente);
-            return CreatedAtAction(nameof(Get), new { id = cliente.Id }, cliente);
+            var clienteInserido = await clienteManager.InsertClienteAsync(novoCliente);
+            return CreatedAtAction(nameof(Get), new { id = clienteInserido.Id }, clienteInserido);
         }
 
         // PUT api/<ClientesController>/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(Cliente cliente)
+        public async Task<IActionResult> Put(AlterarCliente alterarCliente)
         {
-            var clienteAtualizado = await clienteManager.UpdateClienteAsync(cliente);
+            var clienteAtualizado = await clienteManager.UpdateClienteAsync(alterarCliente);
             if (clienteAtualizado == null)
             {
                 return NotFound();

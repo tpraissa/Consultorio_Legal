@@ -13,3 +13,5 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Core.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Core.pdb
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\obj\Debug\netcoreapp3.1\CL.Manager.csproj.CopyComplete
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Core.Shared.dll
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Manager\bin\Debug\netcoreapp3.1\CL.Core.Shared.pdb

@@ -12,6 +12,8 @@ namespace CL.Core.Domain
         public char Sexo { get; set; }
         public String Telefone { get; set; }
         public String Documento { get; set; }
+        public DateTime Criacao { get; set; }
+        public DateTime? UltimaAtualizacao { get; set; }
 
     }
 }
