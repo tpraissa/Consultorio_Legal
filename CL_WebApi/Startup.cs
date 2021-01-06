@@ -5,6 +5,7 @@ using CL.Manager.Implementation;
 using CL.Manager.Interfaces;
 using CL.Manager.Mapping;
 using CL.Manager.Validator;
+using CL.WebApi.Configuration;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,28 +37,23 @@ namespace CL_WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers()
-                .AddFluentValidation(p =>
-                {
-                    p.RegisterValidatorsFromAssemblyContaining<NovoClienteValidator>();
-                    p.RegisterValidatorsFromAssemblyContaining<AlterarClienteValidator>();
-                    p.ValidatorOptions.LanguageManager.Culture = new CultureInfo("pt-BR");
-                });
+            services.AddControllers();
 
-            services.AddAutoMapper(typeof(NovoClienteMappingProfile), typeof(AlterarClienteMappingProfile));
+            services.AddFluentValidationConfiguration();
+
+            services.AddAutoMappingConfiguration();
 
             services.AddApplicationInsightsTelemetry();
                 
             services.AddDbContext<ClContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ClConnection")));
-            //Injeção de dependencia
-            services.AddScoped<IClienteRepository, ClienteRepository>();
-            services.AddScoped<IClienteManager, ClienteManager>();
 
-            //iniciando o swagger como serviço de documentação
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Consultorio Legal", Version = "v1" });
-            });
+            //Injeção de dependencia
+            services.AddDependencyInjectionConfiguration();
+
+            //SwaggerDocumentação
+            services.AddSwaggerConfiguration();
+
+
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -67,13 +63,7 @@ namespace CL_WebApi
                 app.UseDeveloperExceptionPage();
             }
 
-            //configurar para a aplicaçao usar
-            app.UseSwagger();
-            //Endpoint ligado ao swagger Doc = v1
-            app.UseSwaggerUI(c => {
-                c.RoutePrefix = string.Empty;
-                c.SwaggerEndpoint("./swagger/v1/swagger.json", "CL V1");
-            });
+            app.UseSwaggerConfiguration();
 
             app.UseHttpsRedirection();
 
