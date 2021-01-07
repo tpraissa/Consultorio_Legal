@@ -17,3 +17,5 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Manager.pdb
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Core.Shared.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Core.Shared.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Core.xml
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Data\bin\Debug\netcoreapp3.1\CL.Core.Shared.xml

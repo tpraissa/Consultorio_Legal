@@ -7,3 +7,4 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core.Shared\obj\Debug\netstan
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core.Shared\obj\Debug\netstandard2.0\CL.Core.Shared.csproj.CoreCompileInputs.cache
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core.Shared\obj\Debug\netstandard2.0\CL.Core.Shared.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core.Shared\obj\Debug\netstandard2.0\CL.Core.Shared.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL.Core.Shared\bin\Debug\netstandard2.0\CL.Core.Shared.xml

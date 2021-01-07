@@ -92,3 +92,6 @@ C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Core.Shared.pdb
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.WebApi.xml
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Core.xml
+C:\Aplicacoes\app-corporativa\Consultorio_Legal\CL_WebApi\bin\Debug\netcoreapp3.1\CL.Core.Shared.xml
